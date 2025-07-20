@@ -81,7 +81,5 @@ output_path = "D:/01. ANA/04. TB/01. Task 01/routing-service/result/optimized_ro
 gdf = gpd.GeoDataFrame(lines, crs='EPSG:4326')
 gdf.to_file(output_path)
 
-print("Rute berhasil disimpan sebagai shapefile.")
-
-# Exit QGIS
+print("Done")
 qgs.exitQgis()
